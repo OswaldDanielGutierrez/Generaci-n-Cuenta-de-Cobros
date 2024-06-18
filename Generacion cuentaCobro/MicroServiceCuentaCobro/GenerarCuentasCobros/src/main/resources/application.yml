@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: GenerarCuentasCobros
+
+  mvc:
+    contentnegotiation:
+      favor-parameter: true
+      media-types:
+        pdf: application/pdf
+
